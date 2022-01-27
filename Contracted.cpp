@@ -23,6 +23,7 @@ string Contracted::toString() const {
                  << " with an average contract of $"
                  << m_contractRate
                  << " and "
+                 << m_contractQuantity
                  << " contracts has earnings of "
                  << earnings();
 
