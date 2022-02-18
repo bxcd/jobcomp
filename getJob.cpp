@@ -104,7 +104,7 @@ Job* getJob() {
                 cout << "You did not enter a valid aggregate overtime pay." + errorMsg;
             }
             cin.ignore( numeric_limits< streamsize >::max(), '\n' ); // discards space and subsequent inputs
-            pJob = new Waged( title, hourlyRate, weeklyHours, timeSpan, totalOvertime ); // instantiates new job object in heap
+            pJob = new Waged( title, weeklyHours, hourlyRate, timeSpan, totalOvertime ); // instantiates new job object in heap
             return pJob; // returns pointer to job object
         }
         // rejects and repeats input
