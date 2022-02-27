@@ -13,7 +13,7 @@ int main() {
     int loopCount = -1; // counts number of loop iterations
     vector< Job* > pJob; // declares a template class of Job pointers from vector class template
 
-    cout << "Enter a list of jobs - 'done' to end" << endl;
+    cout << "Enter a list of jobs" << endl;
     do { // iterates before checking condition
         ++loopCount; // increments loop counter whose value is index of current array position
         pJob.insert( pJob.end(), getJob() ); // assigns to Job pointer the job returned by get function
