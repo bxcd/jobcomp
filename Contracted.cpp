@@ -24,7 +24,7 @@ string Contracted::toString() const {
                  << m_contractRate
                  << " and "
                  << m_contractQuantity
-                 << " contracts has earnings of "
+                 << " contracts has earnings of $"
                  << earnings();
 
     return outputString.str(); // returns string contents of ostringstream object

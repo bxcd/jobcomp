@@ -26,7 +26,7 @@ string Salaried::toString() const {
                  << m_timeSpan
                  << " years with bonuses totaling $"
                  << m_totalBonus
-                 << " has earnings of "
+                 << " has earnings of $"
                  << earnings();
 
     return outputString.str(); // returns string contents of ostringstream object
