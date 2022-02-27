@@ -115,6 +115,6 @@ Job* getJob() {
           return pJob; // returns pointer to job object
       }
       // rejects and repeats input
-      cout << "You did not enter a valid job type.  Choices are: [ contracted | salaried | waged ].  Try again." << endl;
+      cout << "You did not enter a valid job type.  Choices are: [ contract | salary | wage ].  Try again." << endl;
     }
 }
