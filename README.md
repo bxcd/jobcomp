@@ -2,6 +2,10 @@
 
 Comparison tool made with C++, GCC and Make
 
+Utilizes code snippets written and style used from when I first started coding
+
+Influenced by readings from B.Stroustrup and S.Meyers
+
 # Getting started
 
 * 1. Install C++, GCC and Make.
