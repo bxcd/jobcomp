@@ -1,12 +1,10 @@
 # jobcomp
 
-Comparison tool made with C++, GCC and Make
+Comparison tool made with C++, GCC and Make. Sorts jobs based on indicated income level.
 
-Utilizes code snippets written and style used from when I first started coding
+Enter a job title, job type (either 'contract', 'wage', or 'salary'), and follow the prompts specific to each job type in order to calculate income. Repeat the process or enter 'done' to generate a sorted job list (or 'help' for instructions).
 
-Influenced by readings from B.Stroustrup and S.Meyers
-
-# Getting started
+## Getting started
 
 * 1. Install C++, GCC and Make.
 * 2. Run the command: make
