@@ -7,8 +7,8 @@ using std::setprecision;
 using std::fixed;
 
 // initializes base-class ctor and this object's private data member
-Waged::Waged( const string &title, double weeklyHours, double hourlyRate, double timeSpan, double totalOvertime )
-    : Job( title ),  m_weeklyHours( weeklyHours ), m_hourlyRate( hourlyRate ), m_timeSpan( timeSpan ), m_totalOvertime( totalOvertime ) {}
+Waged::Waged(const string &title, double weeklyHours, double hourlyRate, double timeSpan, double totalOvertime)
+    : Job(title),  m_weeklyHours(weeklyHours), m_hourlyRate(hourlyRate), m_timeSpan(timeSpan), m_totalOvertime(totalOvertime) {}
 
 // overrides base-class virtual member function to return this object's earnings
 double Waged::earnings() const {
@@ -18,7 +18,7 @@ double Waged::earnings() const {
 // overrides base-class virtual member function to return string that displays info about this object
 string Waged::toString() const {
     ostringstream outputString; // instantiates ostringstream object
-    outputString << setprecision ( 2 ) << fixed // formats numeric output to hundredth decimal place
+    outputString << setprecision (2) << fixed // formats numeric output to hundredth decimal place
                  << getTitle() // accesses base-class private data member via base-class member function
                  << " with wage of $"
                  << m_hourlyRate

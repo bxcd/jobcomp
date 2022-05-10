@@ -6,7 +6,7 @@
 // derived-class inherits base-class Job
 class Waged : public Job {
 public:
-    Waged( const string&, double, double, double, double ); // ctor
+    Waged(const string&, double, double, double, double); // ctor
     virtual double earnings() const; // calculates and returns this object's earnings
     virtual string toString() const; // returns string containing info about this object
 private:
