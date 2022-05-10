@@ -6,7 +6,7 @@
 // derived-class inherits base-class Job
 class Contracted : public Job {
 public:
-    Contracted( const string&, double, double ); // ctor
+    Contracted(const string&, double, double); // ctor
     virtual double earnings() const; // calculates and returns this object's earnings
     virtual string toString() const; // returns string containing info about this object
 private:
