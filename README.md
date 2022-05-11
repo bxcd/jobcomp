@@ -6,7 +6,7 @@ Enter a job title, job type (either 'contract', 'wage', or 'salary'), and follow
 
 ## Getting started
 
-* 1. Install C++, GCC and Make.
-* 2. Run the command: make
-* 3. Run the command: jobcomp.exe
-* 4. Follow the prompts.
+1. Install C++, GCC and Make.
+2. Run the command: make
+3. Run the command: jobcomp.exe
+4. Follow the prompts.
